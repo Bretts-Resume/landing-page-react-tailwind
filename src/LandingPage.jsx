@@ -5,9 +5,8 @@ export default function LandingPage() {
     <div className="min-h-screen flex flex-col text-gray-800 bg-white">
       {/* Hero Section */}
       <header className="flex flex-col items-center justify-center px-6 py-20 text-center bg-gradient-to-b from-pink-100 to-white">
-        <h1 className="text-4xl font-bold sm:text-5xl mb-4">
-          Elegant Looks, Timeless Style
-        </h1>
+        <img src="/logo.png" alt="Boutique Logo" className="w-24 h-24 mb-4" />
+        <h1 className="font-serif text-4xl">Elegant Looks</h1>
         <p className="text-lg sm:text-xl mb-6 max-w-md">
           Discover handcrafted pieces that bring elegance to everyday wear.
         </p>
